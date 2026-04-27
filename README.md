@@ -49,7 +49,7 @@
 
 ### В папке [/colab](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/colab) находится файл .ipynb, на котором в Google Colab сделан RAG-пайплайн. 
 
-## Установка
+# Установка
 
 Для установки используйте:
 ```
@@ -69,4 +69,34 @@ uvicorn main:app --reload
 ```
 После запуска сервис будет доступен по ссылке http://127.0.0.1:8000.
 
+# Эндпоинты
+
+GET /health — статус сервиса;
+
+POST /ask — вход: JSON вида:
+
+{
+"question": "Как оформить возврат товара?"
+}
+Выход:
+{
+"answer": "Текст ответа модели...",
+"sources": [
+{
+"doc_id": "policy_01",
+"score": 0.87,
+"snippet": "Фрагмент документа..."
+}
+]
+}
+
+## Пример использования
+
+### Пример использования с curl:
+
+```
+curl -X POST "http://127.0.0.1:8000/ask" \
+     -H "Content-Type: application/json" \
+     -d '{"question":"Что такое Docker?"}'
+```
 
