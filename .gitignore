@@ -1,0 +1,20 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Секретные файлы
+.env
+
+# Генерируемые при запуске
+faiss_index.bin
+documents.npy
+metadatas.npy
+
+# Временные файлы Colab / Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
