@@ -1,4 +1,4 @@
-# f1r5t_LLM_W1th_R4G
+# first_llm_wth_rag
 Это мой первый масштабный проект в ML, где реализован бэк на FastAPI для работы на базе LLM с RAG-пайплайном для ответов на вопросы по учебным документам. 
 
 # Корпус документов и постановка задачи
@@ -45,15 +45,15 @@
 
 Что такое RWX в Linux?
 
-### Тестовая выборка текстов находится в папке [/docs](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/docs). 
+### Тестовая выборка текстов находится в папке [/docs](https://github.com/Alisa-gh2/first_llm_wth_rag/tree/main/docs). 
 
-### В папке [/colab](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/colab) находится файл .ipynb, на котором в Google Colab сделан RAG-пайплайн. 
+### В папке [/colab](https://github.com/Alisa-gh2/first_llm_wth_rag/tree/main/colab) находится файл .ipynb, на котором в Google Colab сделан RAG-пайплайн. 
 
 # Установка
 
 Для установки используйте:
 ```
-git clone https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G.git
+git clone https://github.com/Alisa-gh2/first_llm_wth_rag.git
 cd F1r5t_LLM_W1th_R4G
 python -m venv venv
 source venv/bin/activate
