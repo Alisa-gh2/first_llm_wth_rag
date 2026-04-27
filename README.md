@@ -46,3 +46,5 @@
 Что такое RWX в Linux?
 
 ### Тестовая выборка текстов находится в папке [/docs](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/docs). 
+
+### В папке [/colab](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/colab) находится файл .ipynb, на котором в Google Colab сделан RAG-пайплайн. 
