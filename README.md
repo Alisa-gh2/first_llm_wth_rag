@@ -48,3 +48,25 @@
 ### Тестовая выборка текстов находится в папке [/docs](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/docs). 
 
 ### В папке [/colab](https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G/tree/main/colab) находится файл .ipynb, на котором в Google Colab сделан RAG-пайплайн. 
+
+## Установка
+
+Для установки используйте:
+```
+git clone https://github.com/Alisa-gh2/F1r5t_LLM_W1th_R4G.git
+cd F1r5t_LLM_W1th_R4G
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+Скопируйте .env.example в .env, а затем укажите в нем свой API_KEY. 
+
+Загрузите свои докумнеты для модели (txt, html, md, pdf и др.) в папку docs/.
+
+Затем запустите сервер:
+```
+uvicorn main:app --reload
+```
+После запуска сервис будет доступен по ссылке http://127.0.0.1:8000.
+
+
