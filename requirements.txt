@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pypdf2
+sentence-transformers
+faiss-cpu
+openrouter
+pydantic
+python-dotenv
